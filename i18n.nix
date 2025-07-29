@@ -1,6 +1,7 @@
 {pkgs,...}:
 {
   i18n = {
+    defaultLocale = "zh_CN.UTF-8";
     inputMethod = {
       enabled = "fcitx5";
       fcitx5 = {
